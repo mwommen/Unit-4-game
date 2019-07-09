@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="game.js"></script>
+
+</head>
+
+<body>
+        <div class="containerImg">
+
+    <img class="bg-image" src="http://assets.fightland.com/content-images/contentimage/50783/vice-ring650.jpg">
+
+
+
+
+    <div class="header">
+    <h1>UFC 239 Guessing Game  </h1>
+    </div>
+
+
+<div class="directions">
+    <ol>
+    <li>You will be given a random number at the start of the game. </li>
+    <li>There are four fighters below. By clicking on a fighter you will add a specific amount of points to your total score.</li>
+    <li>You win the game by matching your total score to the random number. You lose if your score is above the random number. </li>
+    <li>The value of each fighter is hidden from you until you click on it. Each time the game resets, the values of each fighter will also change.  </li>
+</ol>
+    </div>
+
+
+
+
+    <h2>Click any fighter to begin</h2>
+
+
+
+
+ <!-- <div class ="card"> -->
+<div class="buttons" class="card">
+        <div class ="card">
+            <img src="https://res-4.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_0/c_fill,f_auto,h_495,q_auto,w_880/v1/m/c/a/ca67ebd4b75af904131a2b3c79379a682179e85d/13012667.jpg"  id="button1" alt="Button 1" style="width:300px;height:200px;" onmouseover="hover(this);" onmouseout="unhover(this);">
+    
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLJu9w-cMXEbPzBu8UC9zmwh7WsWmINwfGsZh9hZO_06Q0CB52mg" id="button2" alt="Button 2" style="width:300px;height:200px;">
+    
+            <img src="https://www.reviewjournal.com/wp-content/uploads/2019/03/11982592_web1_MMA-UFC235GAMER_030119ev_040.jpg"  id="button3" alt="Button 3" style="width:300px;height:200px;">
+    
+            <img src="https://www.bjpenn.com/wp-content/uploads/Thiago-Santos-1-696x399.png"  id="button4" alt="Button 4" style="width:300px;height:200px;">
+    </div>
+</div>
+
+    
+
+<div id="numToGuess">
+ <h2>Number to guess:</h2>
+</div>
+
+<div class="WINS">
+<h3>WINS:</h3> <span id="won"></span>
+
+<h3>LOSSES:</h3> <span id="lost"></span>
+</div>
+
+
+<div class="userTotal">
+		<h2>Your total score is:
+			<span id="totalScore"></span>
+		</h2>
+
+
+
+    
+</body>
+</html>

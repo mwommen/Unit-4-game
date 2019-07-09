@@ -1,0 +1,140 @@
+body {
+   background-image: fill;
+   background-color: blanchedalmond;
+   position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+
+}
+
+#button1 {
+width: 5px;
+height: 5px;
+/* padding-left: 25px */
+}
+
+.directions {
+    background-color: grey;
+    font-size: 22px;
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+     margin-top:50px; 
+}
+
+.numToGuess {
+    font-weight: 100;
+    color: white;
+}
+
+.bg-image {
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+#button1 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  
+
+} 
+#button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#button1:active {
+        background-color: red;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+}
+
+
+
+#button2 {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+#button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#button2:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#button3 {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+#button3:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#button3:active  {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#button4 {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+}
+#button4:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#button4:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.buttons {
+    text-align: center;
+}
+
+#numToGuess {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.WINS {
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
